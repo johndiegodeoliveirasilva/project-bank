@@ -43,11 +43,11 @@ group :development, :test do
   gem 'byebug', '~> 11.1', '>= 11.1.3'
   gem 'rspec-rails', '~> 5.1', '>= 5.1.2'
   gem "database_cleaner", "~> 2.0"
+  gem "faker", "~> 2.21"
+  gem 'factory_bot_rails', '~> 6.2'
 end
 
 group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
-
-gem "faker", "~> 2.21"
