@@ -42,12 +42,12 @@ group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
   gem 'byebug', '~> 11.1', '>= 11.1.3'
   gem 'rspec-rails', '~> 5.1', '>= 5.1.2'
+  gem "database_cleaner", "~> 2.0"
 end
 
 group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
-
 
 gem "faker", "~> 2.21"
